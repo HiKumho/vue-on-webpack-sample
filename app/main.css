@@ -1,0 +1,8 @@
+@import "./variable.css";
+
+.red {
+	color: var(--red-color);
+}
+.big {
+	font-size: var(--text-font-size);
+}
