@@ -32,9 +32,9 @@ module.exports = {
                 test: /\.css$/,
                 use: [
                     {
-                        loader: 'style-loader' // 将 css 插入 html 中
+                        loader: 'style-loader' // 将 style 节点注入 DOM 中
                     }, {
-                        loader: 'css-loader' // 读取 css 文件，并解析
+                        loader: 'css-loader' // 读取引用的 css 文件, @import
                     }, {
                         loader: 'postcss-loader',
                         options: {
