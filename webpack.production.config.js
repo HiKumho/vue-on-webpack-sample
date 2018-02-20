@@ -26,6 +26,7 @@ module.exports = {
                 test: /\.vue$/,
                 loader: 'vue-loader',
                 options: {
+                    extractCSS: true,
                     cssModules: {
                         localIdentName: '[name]-[local]-[hash:base64:5]',
                         cameCase: true
